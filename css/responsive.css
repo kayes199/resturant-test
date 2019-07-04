@@ -1,0 +1,59 @@
+/*Responsive-Design*/
+/*// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width*/
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1200px) {
+	.menu-content a{
+		font-size: 18px;
+	}
+	.breakfast-content h2 {
+    font-size: 44px;
+	}
+	.lunch-heading h2:before {
+    width: 15%;
+    top: 40%;
+    left: -5%;
+    transform: translate(5%,-40%);
+	}
+	.lunch-heading h2:after {
+    width: 15%;
+    top: 40%;
+    right: -5%;
+    transform: translate(-5%,-40%);
+	}
+	.news-letter-content h2 {
+    font-size: 50px;
+	}
+	.heading h2 {
+    font-size: 50px;
+	}
+	.heading p {
+    max-width: 800px;
+	}
+	.breakfast-section{
+		max-height: 360px;
+	}
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 992px)  {
+	.menu-content a{
+		font-size: 18px;
+	}
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+	
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+	
+}
+/*Extra small- Device*/
+@media (max-width: 350px) {
+	
+}
+
